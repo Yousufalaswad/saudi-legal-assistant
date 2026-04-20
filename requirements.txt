@@ -15,3 +15,5 @@ sentence-transformers==2.7.0
 langdetect
 arabic-reshaper
 python-bidi
+langsmith==0.1.147
+zstandard==0.22.0
