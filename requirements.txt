@@ -1,0 +1,17 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+langchain-openai
+langchain-text-splitters
+faiss-cpu
+pypdf
+python-dotenv
+cohere==4.57
+numpy==1.26.4
+datasets
+huggingface-hub
+sentence-transformers==2.7.0
+langdetect
+arabic-reshaper
+python-bidi
