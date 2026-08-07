@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app.pipeline import load_vectorstore, ask_question
+from streamlit_autorefresh import st_autorefresh
 
 load_dotenv()
 
@@ -12,6 +13,8 @@ st.set_page_config(
     page_icon="⚖️",
     layout="centered"
 )
+
+st_autorefresh(interval=300000, key='keepalive')
 
 # CSS for RTL Arabic support
 st.markdown("""
